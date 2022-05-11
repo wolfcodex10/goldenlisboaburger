@@ -1,0 +1,27 @@
+.containerStyleButton{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    
+    padding: .9rem;
+    width: 325px;
+
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;    
+
+    background-color: #030303;
+    color: #fff;
+    border: 3px solid #f3a01a00;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+
+    @media(max-width: 300px){
+    width: 225px;
+    }
+
+}
+

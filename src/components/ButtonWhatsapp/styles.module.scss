@@ -1,0 +1,29 @@
+.containerButtonWhatsapp{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 325px;
+    
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;    
+
+    background-color: #F3A11A;
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+
+    @media(max-width: 300px){
+    width: 225px;
+    }
+
+}

@@ -1,0 +1,149 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    
+    .containerImageLogo{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .title, .description { text-align: center; }
+
+    .title{
+        color: #F3A11A;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .description{
+        font-weight: 300;
+        display: block;
+        color: #EBEBEB;
+    }
+
+    .challange{
+        background-color: #F3A11A;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 1.5rem;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem !important;
+
+    }
+
+}
+
+.itemCarrousel{
+    position: relative;
+    
+    .overlay{
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        background: linear-gradient(0deg, #000000 -28.5%, rgba(0, 0, 0, 0) 50%);
+        height: 101%;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+.imageItemSlideshow{
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        z-index: 3;
+        
+    }
+}
+
+.descriptionItemSlideshow{
+    z-index: 2;
+
+    p{
+        color: #e2e2e2;
+    }
+
+}
+
+
+.containerItemCardapio{
+
+    color: #f0f0f0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0rem 2rem;
+
+    .itemCardapio{
+        
+        h3{
+            margin-bottom: 4px !important;
+        }
+        
+        span{
+            color: #C8C8C8;
+        }
+    }
+}
+
+
+.carrousel{
+    margin-bottom: 2rem !important;
+}
+
+
+
+.modal{
+    margin: 16px;
+    border: none;
+
+    .imageModal{
+        object-fit: cover;
+        color: #e66700;
+    }
+
+    .textModal{
+        text-align: center;
+    }
+
+    .closeButtonModal{
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        top: -4px;
+        width: 40px;
+        font-weight: bold;
+        font-size: 18px;
+        height: 40px;
+        border:  none;
+        background-color: #000000;
+        color: #fff;
+    }
+
+    hr{
+        background-color: red !important;
+        width: 100%;
+        height: 4px;
+    }
+
+}
+
+
+
