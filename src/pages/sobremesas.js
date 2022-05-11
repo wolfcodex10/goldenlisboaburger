@@ -62,7 +62,7 @@ function Sobremesas() {
   return (
     <>
       <Head>
-        <title>SOBREMESAS - Golden Burger Lisboa</title>
+        <title>Sobremesas - Golden Burger Lisboa</title>
         <meta name="description" content="Golden Burger é um espaço 100% amigável e todos os clientes são bem-vindos." />
       </Head>
 

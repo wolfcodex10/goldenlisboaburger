@@ -32,14 +32,14 @@ function Bebidas() {
           },
           {
             id: 2,
-            name: "Sumo laranja natural",
-            price: "2.5€"
-          },
-          {
-            id: 3,
             name: "Refrigerantes",
             details: "Coca-Cola, Coca-Cola Zero, Sumal de anands, Fanta de laranja, Guaraná, ice tea pêssego, limão e manga",
             price: "2€"
+          },
+          {
+            id: 3,
+            name: "Sumo laranja natural",
+            price: "2.5€"
           },
           {
             id: 4,
@@ -269,7 +269,7 @@ function Bebidas() {
   return (
     <>
       <Head>
-        <title>BEBIDAS - Golden Burger Lisboa</title>
+        <title>Bebidas - Golden Burger Lisboa</title>
         <meta name="description" content="Golden Burger é um espaço 100% amigável e todos os clientes são bem-vindos." />
       </Head>
 
