@@ -14,7 +14,7 @@ function Sobremesas() {
   const detailsPage = {
     header: {
       title: "SOBREMESAS",
-      description: "Milhshakes, Brownies, Mouses e muito mais"
+      description: "Milkshakes, Brownies, Mouses e muito mais"
     },
 
     content: [
@@ -42,7 +42,7 @@ function Sobremesas() {
                 price: "5,5€"
              },
              {
-                name: "Milhshake",
+                name: "Milkshake",
                 details: "Batido Gelado e Nutella, chantilly, Nutella e canudinhos recheado.",
                 price: "4,95€"
              },
