@@ -163,13 +163,13 @@ function Bebidas() {
           },
           {
             id: 10,
-            name: "Trinca Alentejo - Trica Bolotas ",
+            name: "Tinto Alentejo - Trica Bolotas ",
             type: "(Copo)",
             price: "4€"
           },
           {
             id: 11,
-            name: "Trinca Alentejo - Trica Bolotas",
+            name: "Tinto Alentejo - Trica Bolotas",
             type: "(Garrafa)",
             price: "14€"
           },
