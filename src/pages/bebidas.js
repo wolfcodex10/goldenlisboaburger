@@ -116,7 +116,7 @@ function Bebidas() {
             id: 501,
             name: "Macã",
             details: "(0,33)",
-            price: "1,85€"
+            price: "2,50€"
           },
         ]
       },
