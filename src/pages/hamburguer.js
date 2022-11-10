@@ -23,82 +23,162 @@ function Hamburgers() {
     content: [
       {
         id: 1,
-        name: "Bacon Chese Double",
-        imageUrl: "/hamburgers/bacon-chese-double.jpg",
+        name: "Smash (NOVO)",
+        imageUrl: "",
         price: "8,5€",
-        description: "Pão brioche, 2x 70g carne, 2x cheddar, 2x bacon e molho Golden"
+        description: "Pão, 70g carne, cheddar, bacon e molho golden"
       },
 
       {
         id: 2,
-        name: "Sangra sempre",
-        price: "11,5€",
-        description: "Pão brioche, 140g carne, molho de carne da casa (contém cebola), ovo, queijo edam, fiambre, chourição, cenoura, alface, batata palha, milho, maionese e ketchup"
+        name: "Bacon Cheese Double",
+        imageUrl: "/hamburgers/bacon-chese-double.jpg",
+        price: "10,95€",
+        description: "Pão brioche, 2x 70g carne, 2x cheddar, 2x bacon e molho Golden"
       },
 
       {
         id: 3,
-        name: "Sangra sempre Duplo",
-        price: "13,95€",
-        description: "Pão brioche, 2x 140g carne, molho de carne da casa (contém cebola), ovo, 2x queijo edam, 2x fiambre, 2x chourição, cenoura, alface, batata palha, milho, maionese e ketchup"
+        name: "Abelha e vaca (NOVO)",
+        imageUrl: "",
+        price: "10,95€",
+        description: "Pão brioche, 2x 70g carne, 2x cheddar, 2x bacon e molho Golden"
       },
 
       {
         id: 4,
-        name: "Adoço",
-        imageUrl: "/hamburgers/adoco.jpg",
-        price: "11,5€",
-        description: "Pão brioche, 140g carne, maionese Golden, bacon, ovo, cheddar e cebola frita"
+        name: "Sangra sempre",
+        price: "14,5€",
+        description: "Pão brioche, 140g carne, molho de carne da casa (contém cebola), ovo, queijo edam, fiambre, chourição, cenoura, alface, batata palha, milho, maionese e ketchup"
       },
 
       {
         id: 5,
-        name: "King Kong",
-        price: "14,95€",
-        description: "Pão brioche, 4x 70g carne, aros de cebola, maionese Golden, cheddar e bacon"
+        name: "Sangra sempre Duplo",
+        price: "15,95€",
+        description: "Pão brioche, 2x 140g carne, molho de carne da casa (contém cebola), ovo, 2x queijo edam, 2x fiambre, 2x chourição, cenoura, alface, batata palha, milho, maionese e ketchup"
       },
 
       {
         id: 6,
-        name: "São Domingos",
-        price: "11,50€",
-        description: "Pão brioce, 120 novilho, cheddar, bacon, cebola caramelizada (contém frutos silvestres) e molho Golden"
+        name: "Adoço",
+        imageUrl: "/hamburgers/adoco.jpg",
+        price: "13,95€",
+        description: "Pão brioche, 140g carne, maionese Golden, bacon, ovo, cheddar e cebola frita"
       },
 
       {
         id: 7,
-        name: "Double chicken",
-        imageUrl: "/hamburgers/double-chicken.jpg",
-        price: "14,50€",
-        description: "Pão brioce, 2x frango panado, alface iceberg, tomate, milho, maionese e molho teriyaki"
-      }, 
+        name: "King Kong",
+        price: "15,95€",
+        description: "Pão brioche, 4x 70g carne, aros de cebola, maionese Golden, cheddar e bacon"
+      },
 
       {
         id: 8,
-        name: "Golden vegetariano",
-        imageUrl: "/hamburgers/burger-vegetariano.jpg",
-        price: "10,50€",
-        description: "Pão brioce, molho Golden, panado de vegetais, cheddar e cebola caramelizada (contém frutos silvestres)."
-      }, 
+        name: "São Domingos",
+        price: "13,50€",
+        description: "Pão brioche, 140g carne, cheddar, bacon, cebola caramelizada (contém frutos silvestres) e molho Golden"
+      },
 
       {
         id: 9,
-        name: "X-Salada 4 Canes",
-        price: "14,95€",
-        description: "Pão brioce, alface iceberg, tomate, queijo cheddar, queijo edam, cebola roxa, 4x 70g carne, bacon, ovo e maionese de coentro"
+        name: "Double chicken",
+        imageUrl: "/hamburgers/double-chicken.jpg",
+        price: "15,75€",
+        description: "Pão brioche, 2x frango panado, alface, tomate, milho, maionese e molho teriyaki"
       }, 
 
       {
         id: 10,
+        name: "Golden vegetariano",
+        imageUrl: "/hamburgers/burger-vegetariano.jpg",
+        price: "12,50€",
+        description: "Pão brioche, molho Golden, panado de vegetais, cheddar e cebola caramelizada (contém frutos silvestres)."
+      }, 
+
+      {
+        id: 11,
+        name: "X-Salada 4 Canes",
+        price: "16,5€",
+        description: "Pão brioche, alface, tomate, queijo cheddar, queijo edam, cebola roxa, 4x 70g carne, bacon, ovo e maionese de coentro"
+      }, 
+
+      {
+        id: 12,
         name: "Godzilla",
         imageUrl: "/hamburgers/godzilla1.jpg",
         price: "30€",
-        description: "Pão brioche, 4x 175g carne, novilho, 4x ovo, 8x bacon, 8x cheddar, cebola roxa e molho Golden"
+        description: "Pão brioche, 4x 175g carne, 4x ovo, 8x bacon, 8x cheddar, cebola roxa e molho Golden"
       }
-    ]
+    ],
+    extraContent: {
+      title: "Extras",
+      item: [
+        {
+          id: 1,
+          name: "Carne 70g",
+          price: "2,15€",
+        },
+  
+        {
+          id: 2,
+          name: "Carne 140g",
+          price: "4,25€",
+        },
+  
+        {
+          id: 3,
+          name: "Frango panado",
+          price: "5€",
+        },
+  
+        {
+          id: 4,
+          name: "Alface / Tomate / Cebola",
+          price: "0,50€",
+        },
+  
+        {
+          id: 5,
+          name: "Aros de cebola (2)",
+          price: "1€",
+        },
+  
+        {
+          id: 6,
+          name: "Ovo",
+          price: "1€",
+        },
+  
+        {
+          id: 7,
+          name: "Bacon",
+          price: "1€",
+        },
+  
+        {
+          id: 8,
+          name: "Queijo Edam ou cheddar",
+          price: "1€",
+        },
+  
+        {
+          id: 9,
+          name: "Cebola caramelizada",
+          price: "1€",
+        },
+  
+        {
+          id: 10,
+          name: "Molhos",
+          price: "1€",
+        },
+      ]
+    }
   }
 
-  const { header, content } = detailsPage;
+  const { header, content, extraContent } = detailsPage;
 
   const [visible, setVisible] = useState(false);
   const handler = () => setVisible(true);
@@ -202,6 +282,25 @@ function Hamburgers() {
               <div className={styles.itemCardapio} key={item.id}>
                 <h3>{item.name} - {item.price}</h3>
                 <span>{item.description}</span>
+              </div>
+            )
+          })}
+          <hr style={{
+                  backgroundColor: "#F3A11A",
+                  height: "3px",
+                  zIndex: "300",
+                  padding: "0px important",
+                  opacity: '.5'
+                }} />
+                
+          <h3 style={{
+            color: "#F3A11A",
+            fontWeight: "bold"
+                }}>{extraContent.title}</h3>
+          {extraContent.item.map(item => {
+            return(
+              <div className={styles.itemCardapio} key={item.id}>
+                <h3>{item.name} - {item.price}</h3>
               </div>
             )
           })}

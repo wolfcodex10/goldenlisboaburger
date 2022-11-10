@@ -9,12 +9,12 @@ import stylesButton from '../components/ButtonWhatsapp/styles.module.scss'
 import { BsArrowLeft } from 'react-icons/bs'
 
 
-function Acompanhamentos() {
+function Entradas() {
 
   const detailsPage = {
     header: {
-      title: "ACOMPANHAMENTOS",
-      description: "Vinhos, Cocktais, whisky e muitos mais"
+      title: "ENTRADAS",
+      description: ""
     },
 
     content: [
@@ -23,54 +23,58 @@ function Acompanhamentos() {
          imageUrl: "/acompanhamentos/batata.jpg",
 
          items: [
-          {
-            id: 1,
-            name: "Batata frita simples",
-            details: "Acompanha c/molho Golden e orégãos",
-            price: "2,5€"
-          },
-          {
-            id: 2,
-            name: "Batata cheddar e bacon",
-            details: "Molho cheddar, bacon e orégãos",
-            price: "4,5€"
-          },
-          {
-            id: 3,
-            name: "Batata Doce frita",
-            details: "Acompanha c/molho Golden e orégãos",
-            price: "4,5€"
-          },
-          {
-            id: 4,
-            name: "Batata Doce frita c/ cheddar e bacon (NOVO",
-            details: "Acompanha c/molho Golden e orégãos",
-            price: "6,5€"
-          },
-          {
-            id: 5,
-            name: "Golden fritas 0.1",
-            details: "Batata, maionese golden, frango panado cubos, molho teriyaki e orégãos",
-            price: "5,5€"
-          },
-          {
-            id: 6,
-            name: "Golden fritas 0.2 (NOVO)",
-            details: "Batata, mozzarella, carne, ketchup e orégãos",
-            price: "6€"
-          },
-          {
-            id: 7,
-            name: "Batata com mozzarella (NOVO)",
-            details: "Mozzarella ralada maçaricado",
-            price: "3,5€"
-          },
-          {
-            id: 8,
-            name: "Salada mista",
-            details: "Tomate cherry, alface, milho, cenoura e molho teriyaki",
-            price: "3,95€"
-          },
+             {
+                id: 1,
+                name: "Aros de cebola 5 unidades",
+                price: "4€"
+             },
+             {
+                id: 2,
+                name: "Aros de cebola 9 unidades",
+                price: "6€"
+             },
+             {
+                id: 3,
+                name: "Nuggets de frango 5 unidades",
+                price: "6€"
+             },
+             {
+                id: 4,
+                name: "Nuggets de frango 9 unidades",
+                price: "8,5€"
+             },
+             {
+                id: 5,
+                name: "Nuggets de queijo e chili 5 unidades",
+                price: "6€"
+             },
+             {
+                id: 6,
+                name: "Nuggets de queijo e chili 9 unidades",
+                price: "8,5€"
+             },
+             {
+                id: 7,
+                name: "Mozzarella Sticks 5 unidades",
+                price: "6€"
+             },
+             {
+                id: 8,
+                name: "Mozzarella Sticks 9 unidades",
+                price: "8,5€"
+             },
+             {
+                id: 9,
+                name: "Asas de frango bbq",
+                details: "5 unidades com barbecue e sementes de sésamo", 
+                price: "7€"
+             },
+             {
+                id: 10,
+                name: "Asas de frango bbq",
+                details: "9 unidades com barbecue e sementes de sésamo", 
+                price: "11€"
+             },
          ]
      },
      {
@@ -85,7 +89,7 @@ function Acompanhamentos() {
   return (
     <>
       <Head>
-        <title>Acompanhamentos - Golden Burger Lisboa</title>
+        <title>Entradas - Golden Burger Lisboa</title>
         <meta name="description" content="Golden Burger é um espaço 100% amigável e todos os clientes são bem-vindos." />
       </Head>
 
@@ -185,4 +189,4 @@ function Acompanhamentos() {
   );
 }
 
-export default Acompanhamentos;
+export default Entradas;

@@ -24,31 +24,18 @@ function Sobremesas() {
 
          items: [
              {
-                 name: "Mouse de Oreo",
-                 price: "4.95€"
-             },
-             {
-                name: "Mouse de maracujá",
-                price: "4,95€"
-             },
-             {
                 name: "Duas bolas de gelado",
                 details: "Chocolate | baunilha | morango",
                 price: "4,5€"
              },
              {
-                name: "Brownie da casa",
-                details: "Brownie, gelado, canudinhos recheado e Nutella.",
-                price: "5,5€"
-             },
-             {
-                name: "Milkshake",
-                details: "Batido Gelado e Nutella, chantilly, Nutella e canudinhos recheado.",
+                name: "Milkshake pequeno",
+                details: "Batido Gelado e Nutella, chantilly e canudinhos recheado.",
                 price: "4,95€"
              },
              {
-                name: "Grande chef. Milkshake",
-                details: "Batido Gelado e Nutella, Brownie da casa, gelado, chantilly, Nutella e canudinhos recheado.",
+                name: "Milkshake grande",
+                details: "Batido Gelado e Nutella, chantilly e canudinhos recheado.",
                 price: "7,5€"
              }
          ]

@@ -46,13 +46,44 @@ export default function Home() {
             src="/logo.png"
             alt="Logo Golden Burger"
           />
-        <Animated
+          <Animated
           className={styles.itemOne}
           animationIn="slideInLeft"
           animationOut="slideInLeft"
           animationInDuration={600}
           animationOutDuration={600}
           animationInDelay={0}
+          isVisible={true}>
+
+          <Link href="/executivo">
+            <a>
+              <Button content="MENU EXECUTIVO"/>
+            </a>
+          </Link>
+        </Animated>
+          <Animated
+          className={styles.itemOne}
+          animationIn="slideInLeft"
+          animationOut="slideInLeft"
+          animationInDuration={600}
+          animationOutDuration={600}
+          animationInDelay={100}
+          isVisible={true}
+          >
+
+          <Link href="/entradas">
+            <a>
+              <Button content="ENTRADAS"/>
+            </a>
+          </Link>
+        </Animated>
+        <Animated
+          className={styles.item2}
+          animationIn="slideInLeft"
+          animationOut="slideInLeft"
+          animationInDuration={600}
+          animationOutDuration={600}
+          animationInDelay={200}
           isVisible={true}
         >
           <Link href="/hamburguer">
@@ -63,33 +94,17 @@ export default function Home() {
         </Animated>
 
         <Animated
-          className={styles.item2}
+          className={styles.item3}
           animationIn="slideInLeft"
           animationOut="slideInLeft"
           animationInDuration={600}
           animationOutDuration={600}
-          animationInDelay={100}
+          animationInDelay={300}
           isVisible={true}
         >
           <Link href="/bebidas">
             <a>
               <Button content="BEBIDAS" />
-            </a>
-          </Link>
-        </Animated>
-
-        <Animated
-          className={styles.item3}
-          animationIn="slideInLeft"
-          animationOut="slideInLeft"
-          isVisible={true}
-          animationInDuration={600}
-          animationOutDuration={600}
-          animationInDelay={200}
-          >
-          <Link href="/sobremesas">
-            <a>
-              <Button content="SOBREMESAS"/>
             </a>
           </Link>
         </Animated>
@@ -101,11 +116,11 @@ export default function Home() {
           isVisible={true}
           animationInDuration={600}
           animationOutDuration={600}
-          animationInDelay={300}  
+          animationInDelay={400}
           >
-          <Link href="/acompanhamentos">
+          <Link href="/sobremesas">
             <a>
-              <Button content="ACOMPANHAMENTOS"/>
+              <Button content="SOBREMESAS"/>
             </a>
           </Link>
         </Animated>
@@ -117,17 +132,30 @@ export default function Home() {
           isVisible={true}
           animationInDuration={600}
           animationOutDuration={600}
-          animationInDelay={400}  
+          animationInDelay={500}  
           >
-          <Link href="https://api.whatsapp.com/message/FTJZRMZA6OFEJ1?autoload=1&app_absent=0">
-            <a target="_blank">
-              <Button content="FALE CONOSCO"/>
+          <Link href="/acompanhamentos">
+            <a>
+              <Button content="ACOMPANHAMENTOS"/>
             </a>
           </Link>
         </Animated>
 
-
-
+        <Animated
+          className={styles.item6}
+          animationIn="slideInLeft"
+          animationOut="slideInLeft"
+          isVisible={true}
+          animationInDuration={600}
+          animationOutDuration={600}
+          animationInDelay={600}
+          >
+          <Link href="https://goldenburger.pt">
+            <a target="_blank">
+              <Button content="TAKE AWAY"/>
+            </a>
+          </Link>
+        </Animated>
 
         <span className={styles.textHome}>Descubra aqui nossos sabores! </span>
 

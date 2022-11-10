@@ -27,22 +27,30 @@ function Bebidas() {
           {
             id: 1,
             name: "Limonada",
-            details: "Clássica, maracujá, frutos vermelhos",
-            price: "3€"
+            details: "Limão, maracujá, frutos vermelhos, morango",
+            price: "5€"
           },
           {
             id: 2,
             name: "Refrigerantes",
-            details: "Coca-Cola, Coca-Cola Zero, Sumal de anands, Fanta de laranja, Guaraná, ice tea pêssego, limão e manga",
-            price: "2€"
+            details: "Coca-Cola, Coca-Cola Zero, Sumol de ananás, Fanta de laranja, Guaraná, ice tea pêssego, limão e manga",
+            price: "2,5€"
           },
           {
             id: 3,
-            name: "Sumo laranja natural",
-            price: "2.5€"
+            name: "Refrigerantes",
+            type: "(1,5L)",
+            details: "Sumol de ananás, Coca Cola, guaraná e ice tea de pêssego",
+            price: "5€"
           },
           {
             id: 4,
+            name: "Sumo natural",
+            details: "Laranja, maracujá, morango, Frutos vermelhos",
+            price: "5€"
+          },
+          {
+            id: 5,
             name: "Café",
             price: "0.90€"
           }
@@ -55,14 +63,20 @@ function Bebidas() {
           {
             id: 300,
             name: "Mineral",
-            type: "(0,50cl)",
-            price: "1,20€"
+            type: "(50cl)",
+            price: "1,50€"
           },
           {
             id: 301,
             name: "Frize limão c/gás",
-            type: "(0,25cl)",
-            price: "1,50€"
+            type: "(25cl)",
+            price: "2€"
+          },
+          {
+            id: 302,
+            name: "Castelo c/gás",
+            type: "(25cl)",
+            price: "2€"
           }
         ]
       },
@@ -73,31 +87,19 @@ function Bebidas() {
           {
             id: 400,
             name: "Sagres Mini",
-            type: "(0,20cl)",
+            type: "(20cl)",
             price: "1,30€"
           },
           {
             id: 401,
             name: "Sagres Média",
-            type: "(0,33cl)",
+            type: "(33cl)",
             price: "1,85€"
           },
           {
             id: 402,
-            name: "Imperial",
-            type: "(0,25cl)",
-            price: "1,40€"
-          },
-          {
-            id: 403,
-            name: "Imperial",
-            type: "(0,50cl)",
-            price: "2,50€"
-          },
-          {
-            id: 404,
             name: "Super bock",
-            type: "(0,33cl)",
+            type: "(33cl)",
             price: "1,85€"
           }
         ]
@@ -109,14 +111,14 @@ function Bebidas() {
           {
             id: 500,
             name: "Amora",
-            details: "(0,33)",
-            price: "2,50€"
+            type: "(33cl)",
+            price: "2,9€"
           },
           {
             id: 501,
             name: "Macã",
-            details: "(0,33)",
-            price: "2,50€"
+            type: "(33cl)",
+            price: "2,9€"
           },
         ]
       },
@@ -125,22 +127,22 @@ function Bebidas() {
         title: 'Cocktails',
         items: [
           {
-            id: 5,
-            name: "Caipirinha",
-            details: "Clássica, maracujá, frutos vermelhos",
-            price: "5€"
-          },
-          {
-            id: 6,
-            name: "Mojito",
-            details: "Clássico, maracujá, rum, frutos vermelhos",
-            price: "6€"
-          },
-          {
-            id: 7,
-            name: "O melhor do mundo",
-            details: "Whisky, clara de ovo, açúcar e limão",
+            id: 50,
+            name: "Caipirinha do chef",
+            details: "Limão, maracujá, frutos vermelhos, morango",
             price: "7€"
+          },
+          {
+            id: 60,
+            name: "Mojito",
+            details: "Limão, maracujá, frutos vermelhos, morango",
+            price: "9€"
+          },
+          {
+            id: 70,
+            name: "O melhor do mundo",
+            details: "Criação do chef c/sabor único e super refrescante",
+            price: "10€"
           }
 
         ]
@@ -151,51 +153,24 @@ function Bebidas() {
         items: [
           {
             id: 8,
-            name: "Tinto Douro - Esteva ",
-            type: "(Copo)",
-            price: "4€"
+            name: "Vinho Tinto",
+            type: "(37,5cl)",
+            details: "Ermelinda",
+            price: "8€"
           },
           {
             id: 9,
-            name: "Tinto Douro - Esteva",
-            type: "(Garrafa)",
-            price: "13€"
+            name: "Vinho Branco",
+            type: "(37,5cl)",
+            details: "Ermelinda",
+            price: "8€"
           },
           {
             id: 10,
-            name: "Tinto Alentejo - Trica Bolotas ",
-            type: "(Copo)",
+            name: "Vinho rosé",
+            type: "(37,5cl)",
+            details: "Mateus rosé",
             price: "4€"
-          },
-          {
-            id: 11,
-            name: "Tinto Alentejo - Trica Bolotas",
-            type: "(Garrafa)",
-            price: "14€"
-          },
-          {
-            id: 14,
-            name: "Vinho Branco",
-            type: "(Copo)",
-            price: "4€"
-          },
-          {
-            id: 15,
-            name: "Vinho Branco",
-            type: "(Garrafa)",
-            price: "12€"
-          },
-          {
-            id: 16,
-            name: "Rosé - Mateus",
-            type: "(Copo)",
-            price: "4€"
-          },
-          {
-            id: 17,
-            name: "Rosé - Mateus",
-            type: "(Garrafa)",
-            price: "13€"
           },
         ]
       },
@@ -207,28 +182,38 @@ function Bebidas() {
             id: 200,
             name: "Frutos vermelhos",
             type: "(Copo)",
-            price: "5€"
+            price: "7,5€"
           },
           {
             id: 201,
             name: "Frutos vermelhos",
             type: "(Jarrro 1,7L)",
-            price: "17,99€"
+            price: "19,99€"
           },
           {
             id: 202,
             name: "Maracujá",
             type: "(Copo)",
-            price: "5€"
+            price: "7,5€"
           },
           {
             id: 203,
             name: "Maracujá",
             type: "(Jarrro 1,7L)",
-            price: "17,99€"
+            price: "19,99€"
           },
-          
-          
+          {
+            id: 204,
+            name: "Morango",
+            type: "(Copo)",
+            price: "7,5€"
+          },
+          {
+            id: 205,
+            name: "Morango",
+            type: "(Jarrro 1,7L)",
+            price: "19,99€"
+          },
         ]
       },
       //Champanhe
@@ -337,7 +322,7 @@ function Bebidas() {
                     return (
                       <div  key={item.id}>
                         
-                        {(item.id != 1 && item.id !=5 && item.id !=8 && item.id !=18 && item.id !=19 && item.id!= 200 && item.id!= 300 && item.id!= 400 && item.id!= 500) &&
+                        {(item.id != 1 && item.id !=50 && item.id !=8 && item.id !=18 && item.id !=19 && item.id!= 200 && item.id!= 300 && item.id!= 400 && item.id!= 500) &&
                          <hr style={{
                           backgroundColor: "#F3A11A",
                           padding: "0px important",

@@ -52,8 +52,8 @@
   }
 }
 
-.itemOne, .item2, .item3, .item4, .item5{
-    animation-duration: 600ms !important;
+.itemOne, .item2, .item3, .item4, .item5, .item6, .item7{
+    animation-duration: 700ms !important;
 }
 
 .item2{
@@ -72,4 +72,10 @@
   animation-delay: 400ms;
 }
 
+.item6{
+  animation-delay: 500ms;
+}
 
+.item7{
+  animation-delay: 600ms;
+}
