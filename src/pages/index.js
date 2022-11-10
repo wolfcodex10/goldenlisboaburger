@@ -57,7 +57,7 @@ export default function Home() {
 
           <Link href="/executivo">
             <a>
-              <Button content="MENU EXECUTIVO"/>
+              <Button content="MENU ALMOÇO"/>
             </a>
           </Link>
         </Animated>

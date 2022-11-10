@@ -15,8 +15,8 @@ function Executivo() {
 
   const detailsPage = {
     header: {
-      title: "MENU EXECUTIVO",
-      description: "Acompanham com batata fritas"
+      title: "MENU ALMOÇO (12:00 às 15:00)",
+      description: "Acompanham com batata fritas e bebida até 2,5€"
     },
 
 
