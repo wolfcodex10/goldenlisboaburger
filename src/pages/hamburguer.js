@@ -42,7 +42,7 @@ function Hamburgers() {
         name: "Abelha e a vaca (NOVO)",
         imageUrl: "",
         price: "10,95€",
-        description: "Pão brioche, 2x 70g carne, 2x cheddar, 2x bacon e molho Golden"
+        description: "Pão, 140g carne, queijo mozzarella 100%, mel e maionese golden"
       },
 
       {
