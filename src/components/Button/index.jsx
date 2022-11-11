@@ -8,7 +8,7 @@ function Button({ content }) {
     const [isLoading, setIsLoading] = useState(false);
 
     function showLoading(){
-        if(content != "FALE CONOSCO"){
+        if(content != "TAKE AWAY"){
             setIsLoading(true)
         }
     }
@@ -18,7 +18,7 @@ function Button({ content }) {
         <button className={styles.containerStyleButton} onClick={showLoading}>
             
             {!isLoading ? (
-            content == "FALE CONOSCO" ?
+            content == "TAKE AWAY" ?
                 (
                         <>
                             <FaWhatsapp size={18} />
